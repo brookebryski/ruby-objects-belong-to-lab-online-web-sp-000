@@ -1,11 +1,3 @@
 class Artist
-  attr_reader :name, :title
-
-  def initialize(name,title)
-    @name = name
-    @title = title
-  end
-
+  attr_accessor :name
 end
-
-beyonce = Artist.new("Beyonce", Love on Top)
